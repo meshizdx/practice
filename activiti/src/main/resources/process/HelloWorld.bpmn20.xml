@@ -8,7 +8,7 @@
     <serviceTask id="hellotask1" name="say hello world" activiti:class="com.mandao.asset.activiti.MyJavaDelegate"/>
     <endEvent id="end1"/>
     <exclusiveGateway id="gateway1"/>
-    <serviceTask id="hellotask2" name="say hello hell" activiti:class="com.mandao.asset.activiti.MyJavaDelegate"/>
+    <serviceTask id="hellotask2" name="say hello bug" activiti:class="com.mandao.asset.activiti.MyJavaDelegate"/>
     <endEvent id="end2"/>
     <sequenceFlow id="flow1" sourceRef="start" targetRef="gateway1"/>
     <sequenceFlow id="flow5" sourceRef="hellotask2" targetRef="end2"/>

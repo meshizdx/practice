@@ -1,0 +1,142 @@
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="helloWorld" name="Hello World" isExecutable="true">
+    <extensionElements>
+      <activiti:executionListener event="start" class="com.yyj.demo.activiti.listener.HelloWorldExecutionListener"/>
+      <activiti:executionListener event="end" class="com.yyj.demo.activiti.listener.HelloWorldExecutionListener"/>
+    </extensionElements>
+    <startEvent id="start" activiti:initiator="initiator">
+      <extensionElements>
+        <activiti:formProperty id="input" name="Input Something" type="string" required="true"/>
+      </extensionElements>
+    </startEvent>
+    <userTask id="userTask" name="Hello User Task" activiti:assignee="${initiator}">
+      <extensionElements>
+        <activiti:formProperty id="target" name="Hello To Who" type="string" required="true"/>
+        <activiti:taskListener event="all" class="com.yyj.demo.activiti.listener.HelloWorldExecutionListener"/>
+      </extensionElements>
+    </userTask>
+    <exclusiveGateway id="helloWorldGateway"/>
+    <serviceTask id="helloWorldTask" name="Say Hello World" activiti:class="com.yyj.demo.activiti.support.SimpleDelegate">
+      <extensionElements>
+        <activiti:field name="text1">
+          <activiti:string>
+            <![CDATA[ Hello World!!!! ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="text2">
+          <activiti:string>
+            <![CDATA[
+This is a long string with a lot of words and potentially way longer even!
+]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="text3">
+          <activiti:expression>
+            <![CDATA[ ${who=='YYJ'?'hello YYJ':'hehe YYJ'} ]]>
+          </activiti:expression>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <serviceTask id="helloBugTask" name="Say Hello Bug" activiti:class="com.yyj.demo.activiti.support.SimpleDelegate"/>
+    <endEvent id="end2"/>
+    <endEvent id="end1"/>
+    <endEvent id="end3"/>
+    <endEvent id="end4"/>
+    <sequenceFlow id="sid-53D664A3-6388-4065-A6B6-81B2165A37ED" sourceRef="start" targetRef="userTask"/>
+    <sequenceFlow id="flow1" sourceRef="userTask" targetRef="helloWorldGateway">
+      <extensionElements>
+        <activiti:executionListener event="take" class="com.yyj.demo.activiti.listener.HelloWorldExecutionListener"/>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="flow2" sourceRef="helloWorldGateway" targetRef="helloWorldTask">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${target == 'world'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow3" sourceRef="helloWorldGateway" targetRef="helloBugTask">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${target != 'world'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow4" sourceRef="helloWorldTask" targetRef="end1"/>
+    <sequenceFlow id="flow5" sourceRef="helloBugTask" targetRef="end2"/>
+    <sequenceFlow id="sid-4236A786-0A82-49C2-966B-5281663939D6" sourceRef="helloBugErrorEvent" targetRef="end4"/>
+    <sequenceFlow id="sid-7C19C3B2-C2A0-4DF7-A976-AFE41B7B52C8" sourceRef="helloWorldErrorEvent" targetRef="end3"/>
+    <boundaryEvent id="helloWorldErrorEvent" attachedToRef="helloWorldTask">
+      <errorEventDefinition errorRef="BusinessExceptionOccurred"/>
+    </boundaryEvent>
+    <boundaryEvent id="helloBugErrorEvent" attachedToRef="helloBugTask">
+      <errorEventDefinition errorRef="BusinessExceptionOccurred"/>
+    </boundaryEvent>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_helloWorld">
+    <bpmndi:BPMNPlane bpmnElement="helloWorld" id="BPMNPlane_helloWorld">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="30.0" width="30.0" x="210.0" y="178.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloWorldGateway" id="BPMNShape_helloWorldGateway">
+        <omgdc:Bounds height="40.0" width="40.0" x="495.0" y="173.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloWorldTask" id="BPMNShape_helloWorldTask">
+        <omgdc:Bounds height="80.0" width="100.0" x="600.0" y="153.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloBugTask" id="BPMNShape_helloBugTask">
+        <omgdc:Bounds height="80.0" width="100.0" x="600.0" y="284.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end2" id="BPMNShape_end2">
+        <omgdc:Bounds height="28.0" width="28.0" x="745.0" y="310.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end1" id="BPMNShape_end1">
+        <omgdc:Bounds height="28.0" width="28.0" x="745.0" y="179.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end3" id="BPMNShape_end3">
+        <omgdc:Bounds height="28.0" width="28.0" x="745.0" y="90.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end4" id="BPMNShape_end4">
+        <omgdc:Bounds height="28.0" width="28.0" x="745.0" y="420.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="userTask" id="BPMNShape_userTask">
+        <omgdc:Bounds height="80.0" width="100.0" x="330.0" y="153.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloWorldErrorEvent" id="BPMNShape_helloWorldErrorEvent">
+        <omgdc:Bounds height="30.0" width="30.0" x="648.3752469803973" y="137.237342535932"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloBugErrorEvent" id="BPMNShape_helloBugErrorEvent">
+        <omgdc:Bounds height="30.0" width="30.0" x="629.6821457731594" y="349.17934304723997"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+        <omgdi:waypoint x="430.0" y="193.0"/>
+        <omgdi:waypoint x="495.0" y="193.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="535.0" y="193.0"/>
+        <omgdi:waypoint x="600.0" y="193.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-53D664A3-6388-4065-A6B6-81B2165A37ED" id="BPMNEdge_sid-53D664A3-6388-4065-A6B6-81B2165A37ED">
+        <omgdi:waypoint x="240.0" y="193.0"/>
+        <omgdi:waypoint x="330.0" y="193.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-4236A786-0A82-49C2-966B-5281663939D6" id="BPMNEdge_sid-4236A786-0A82-49C2-966B-5281663939D6">
+        <omgdi:waypoint x="657.4833784905863" y="371.9978109863107"/>
+        <omgdi:waypoint x="747.0521827970682" y="426.7027632568673"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-7C19C3B2-C2A0-4DF7-A976-AFE41B7B52C8" id="BPMNEdge_sid-7C19C3B2-C2A0-4DF7-A976-AFE41B7B52C8">
+        <omgdi:waypoint x="676.7677632789189" y="145.4815666964126"/>
+        <omgdi:waypoint x="746.5003181213799" y="110.30539078355142"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+        <omgdi:waypoint x="515.0" y="213.0"/>
+        <omgdi:waypoint x="515.0" y="324.0"/>
+        <omgdi:waypoint x="600.0" y="324.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="700.0" y="193.0"/>
+        <omgdi:waypoint x="745.0" y="193.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+        <omgdi:waypoint x="700.0" y="324.0"/>
+        <omgdi:waypoint x="745.0" y="324.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

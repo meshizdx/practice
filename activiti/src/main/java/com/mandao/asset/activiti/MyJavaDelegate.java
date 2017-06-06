@@ -10,6 +10,8 @@ import org.activiti.engine.delegate.JavaDelegate;
 @Slf4j
 public class MyJavaDelegate implements JavaDelegate {
     public void execute(DelegateExecution execution) throws Exception {
+        log.info("Activiti:{}[{}]:", execution.getCurrentActivityId(), execution.getCurrentActivityName());
+        log.info("Variable:{}", execution.getVariableInstances());
         String var = (String) execution.getVariable("who");
         log.info("{} say: Hello {}!", var, "YYJ".equals(var) ? "World" : "Hell");
         execution.setVariable("cansay", "YYJ".equals(var) ? true : false);

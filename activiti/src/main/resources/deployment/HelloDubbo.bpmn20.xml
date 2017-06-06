@@ -1,0 +1,145 @@
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="helloDubbo" name="Hello Dubbo" isExecutable="true">
+    <startEvent id="start" activiti:initiator="initiator">
+      <extensionElements>
+        <activiti:formProperty id="dummyResult" name="success" type="enum" required="true">
+          <activiti:value id="success" name="success!"/>
+          <activiti:value id="failure" name="failure!"/>
+        </activiti:formProperty>
+      </extensionElements>
+    </startEvent>
+    <serviceTask id="dubboTask1" name="Dubbo Task 1" activiti:class="com.yyj.demo.activiti.support.DubboDelegate">
+      <extensionElements>
+        <activiti:field name="dubbo">
+          <activiti:string>
+            <![CDATA[
+{"interfaceName":"com.yyj.demo.facade.DubboGenericDummyService","version":"1.0.0","methodName":"dummyMethod","parameterTypes":["com.yyj.demo.facade.indto.DummyInDTO"],"parameters":[{"id":"666","accountName":"yyj0501","loginPassword":"baofoo123"}]}
+]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="interfaceName">
+          <activiti:string>
+            <![CDATA[ com.yyj.demo.facade.DubboGenericDummyService ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="version">
+          <activiti:string>
+            <![CDATA[ 1.0.0 ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="methodName">
+          <activiti:string>
+            <![CDATA[ dummyMethod ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="parameterTypes">
+          <activiti:string>
+            <![CDATA[ com.yyj.demo.facade.Request ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="parameters">
+          <activiti:expression>
+            <![CDATA[
+{"class":"com.yyj.demo.facade.indto.DummyInDTO","id":"${dummyResult=='success'?'777':'null'}","accountName":"yyj0501","loginPassword":"baofoo123"}
+]]>
+          </activiti:expression>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <exclusiveGateway id="dubboGateway" name="Dubbo Gateway"/>
+    <sequenceFlow id="sid-DF9DE5D9-D2DF-460F-A108-F8CBD0DB1B36" sourceRef="dubboTask1" targetRef="dubboGateway"/>
+    <userTask id="userFailureTask" name="User Error Task" activiti:assignee="${initiator}">
+      <extensionElements>
+        <activiti:formProperty id="select" name="Select" type="enum" required="true">
+          <activiti:value id="again" name="try again"/>
+          <activiti:value id="success" name="has successed"/>
+        </activiti:formProperty>
+        <activiti:formProperty id="dummyResult" type="enum" required="true">
+          <activiti:value id="success" name="Success!"/>
+          <activiti:value id="failure" name="Failure!"/>
+        </activiti:formProperty>
+      </extensionElements>
+    </userTask>
+    <endEvent id="successEnd"/>
+    <sequenceFlow id="flow2" sourceRef="start" targetRef="dubboTask1"/>
+    <sequenceFlow id="sid-C9200BB7-9577-4E4C-AF3E-FA844E59AB11" name="again" sourceRef="userFailureTask" targetRef="dubboTask1">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${select=='again'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="sid-414DFAEC-42EC-485D-B0E2-98BA7131AEB5" sourceRef="errorEvent" targetRef="userFailureTask"/>
+    <endEvent id="failureEnd"/>
+    <sequenceFlow id="sid-AB36C5F2-DCDF-484D-AD1A-EA4CF16661CF" name="failure" sourceRef="dubboGateway" targetRef="failureEnd">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${dubboResultSuccess=='false'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <boundaryEvent id="errorEvent" attachedToRef="dubboTask1">
+      <errorEventDefinition errorRef="DubboExceptionOccurred"/>
+    </boundaryEvent>
+    <sequenceFlow id="sid-C166F2F9-72CA-4CD2-A53E-A410C6F58690" name="success" sourceRef="dubboGateway" targetRef="successEnd">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${dubboResultSuccess=='true'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="sid-970A2175-D67E-4833-8D7E-66D871A9E71A" name="success" sourceRef="userFailureTask" targetRef="successEnd">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${select=='success'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_helloDubbo">
+    <bpmndi:BPMNPlane bpmnElement="helloDubbo" id="BPMNPlane_helloDubbo">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="30.0" width="30.0" x="155.0" y="163.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="dubboTask1" id="BPMNShape_dubboTask1">
+        <omgdc:Bounds height="80.0" width="100.0" x="238.75" y="138.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="dubboGateway" id="BPMNShape_dubboGateway">
+        <omgdc:Bounds height="40.0" width="40.0" x="383.75" y="158.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="userFailureTask" id="BPMNShape_userFailureTask">
+        <omgdc:Bounds height="80.0" width="100.0" x="353.75" y="285.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="successEnd" id="BPMNShape_successEnd">
+        <omgdc:Bounds height="28.0" width="28.0" x="495.0" y="164.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="failureEnd" id="BPMNShape_failureEnd">
+        <omgdc:Bounds height="28.0" width="28.0" x="389.75" y="75.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="errorEvent" id="BPMNShape_errorEvent">
+        <omgdc:Bounds height="30.0" width="30.0" x="238.649606844412" y="203.15933331864971"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-AB36C5F2-DCDF-484D-AD1A-EA4CF16661CF" id="BPMNEdge_sid-AB36C5F2-DCDF-484D-AD1A-EA4CF16661CF">
+        <omgdi:waypoint x="403.75" y="158.0"/>
+        <omgdi:waypoint x="403.75" y="103.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-C166F2F9-72CA-4CD2-A53E-A410C6F58690" id="BPMNEdge_sid-C166F2F9-72CA-4CD2-A53E-A410C6F58690">
+        <omgdi:waypoint x="423.75" y="178.0"/>
+        <omgdi:waypoint x="495.0" y="178.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-970A2175-D67E-4833-8D7E-66D871A9E71A" id="BPMNEdge_sid-970A2175-D67E-4833-8D7E-66D871A9E71A">
+        <omgdi:waypoint x="432.3894557823129" y="285.0"/>
+        <omgdi:waypoint x="500.8498516273195" y="189.38310509058462"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="185.0" y="178.0"/>
+        <omgdi:waypoint x="238.75" y="178.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-414DFAEC-42EC-485D-B0E2-98BA7131AEB5" id="BPMNEdge_sid-414DFAEC-42EC-485D-B0E2-98BA7131AEB5">
+        <omgdi:waypoint x="258.71726599450415" y="232.27736543146514"/>
+        <omgdi:waypoint x="292.0" y="325.0"/>
+        <omgdi:waypoint x="353.75" y="325.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-C9200BB7-9577-4E4C-AF3E-FA844E59AB11" id="BPMNEdge_sid-C9200BB7-9577-4E4C-AF3E-FA844E59AB11">
+        <omgdi:waypoint x="372.4574829931973" y="285.0"/>
+        <omgdi:waypoint x="320.0425170068027" y="218.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-DF9DE5D9-D2DF-460F-A108-F8CBD0DB1B36" id="BPMNEdge_sid-DF9DE5D9-D2DF-460F-A108-F8CBD0DB1B36">
+        <omgdi:waypoint x="338.75" y="178.0"/>
+        <omgdi:waypoint x="383.75" y="178.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

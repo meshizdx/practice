@@ -1,0 +1,199 @@
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="helloSpringWorld" name="Hello Spring World" isExecutable="true">
+    <startEvent id="start" activiti:initiator="who">
+      <extensionElements>
+        <activiti:formProperty id="input" name="input" type="long" required="true"/>
+      </extensionElements>
+    </startEvent>
+    <exclusiveGateway id="gateway1"/>
+    <serviceTask id="helloTask1" name="Say Hello World" activiti:class="com.yyj.demo.activiti.delegate.helloworld.ClassDelegate">
+      <extensionElements>
+        <activiti:field name="text1">
+          <activiti:string>
+            <![CDATA[ Hello World!!!! ]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="text2">
+          <activiti:string>
+            <![CDATA[
+This is a long string with a lot of words and potentially way longer even!
+]]>
+          </activiti:string>
+        </activiti:field>
+        <activiti:field name="text3">
+          <activiti:expression>
+            <![CDATA[ ${who=='YYJ'?'You are YYJ':'You are not YYJ!!!'} ]]>
+          </activiti:expression>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <serviceTask id="helloTask2" name="Say Hello Bug" activiti:delegateExpression="${delegateExpressionBean}">
+      <extensionElements>
+        <activiti:field name="someField">
+          <activiti:string>
+            <![CDATA[ 111 ]]>
+          </activiti:string>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <endEvent id="end1"/>
+    <endEvent id="end2"/>
+    <serviceTask id="helloTask3" name="Hello Task3" activiti:expression="#{pojo.printMessage()}" activiti:resultVariableName="result"/>
+    <serviceTask id="helloTask4" name="Hello Task4" activiti:expression="#{pojo.printMessage(execution, world)}"/>
+    <parallelGateway id="gateway2"/>
+    <serviceTask id="helloTask5" name="Hello Task5" activiti:delegateExpression="${delegateExpressionBean}">
+      <extensionElements>
+        <activiti:field name="someField">
+          <activiti:string>
+            <![CDATA[ 2 ]]>
+          </activiti:string>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <serviceTask id="helloTask6" name="Hello Task6" activiti:delegateExpression="${delegateExpressionBean}">
+      <extensionElements>
+        <activiti:field name="someField">
+          <activiti:string>
+            <![CDATA[ 23 ]]>
+          </activiti:string>
+        </activiti:field>
+      </extensionElements>
+    </serviceTask>
+    <parallelGateway id="gateway3"/>
+    <sequenceFlow id="flow13" sourceRef="helloTask3" targetRef="helloTask4"/>
+    <sequenceFlow id="flow14" sourceRef="helloTask4" targetRef="end1"/>
+    <sequenceFlow id="flow22" sourceRef="helloTask2" targetRef="gateway2"/>
+    <sequenceFlow id="flow23" sourceRef="gateway2" targetRef="helloTask5"/>
+    <sequenceFlow id="flow24" sourceRef="helloTask5" targetRef="gateway3"/>
+    <sequenceFlow id="flow25" sourceRef="gateway3" targetRef="end2"/>
+    <sequenceFlow id="flow31" sourceRef="gateway2" targetRef="helloTask6"/>
+    <sequenceFlow id="flow32" sourceRef="helloTask6" targetRef="gateway3"/>
+    <endEvent id="end3"/>
+    <serviceTask id="helloTask7" name="Hello Task7" activiti:expression="#{pojo.printMessage(execution, world)}"/>
+    <boundaryEvent id="error1" attachedToRef="helloTask1">
+      <errorEventDefinition errorRef="BusinessExceptionOccurred"/>
+    </boundaryEvent>
+    <sequenceFlow id="flow12" sourceRef="helloTask1" targetRef="helloTask3"/>
+    <sequenceFlow id="flow1" sourceRef="start" targetRef="gateway1"/>
+    <sequenceFlow id="flow11" sourceRef="gateway1" targetRef="helloTask1">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${who == 'YYJ'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow21" sourceRef="gateway1" targetRef="helloTask2">
+      <conditionExpression xsi:type="tFormalExpression">
+        <![CDATA[ ${who != 'YYJ'} ]]>
+      </conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow01" sourceRef="error1" targetRef="helloTask7"/>
+    <sequenceFlow id="flow02" sourceRef="helloTask7" targetRef="end3"/>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_helloSpringWorld">
+    <bpmndi:BPMNPlane bpmnElement="helloSpringWorld" id="BPMNPlane_helloSpringWorld">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="30.0" width="30.0" x="181.5" y="263.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="gateway1" id="BPMNShape_gateway1">
+        <omgdc:Bounds height="40.0" width="40.0" x="309.5" y="258.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask1" id="BPMNShape_helloTask1">
+        <omgdc:Bounds height="80.0" width="100.0" x="418.75" y="238.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask2" id="BPMNShape_helloTask2">
+        <omgdc:Bounds height="80.0" width="100.0" x="418.75" y="369.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end1" id="BPMNShape_end1">
+        <omgdc:Bounds height="28.0" width="28.0" x="900.0" y="264.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end2" id="BPMNShape_end2">
+        <omgdc:Bounds height="28.0" width="28.0" x="900.0" y="395.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask3" id="BPMNShape_helloTask3">
+        <omgdc:Bounds height="80.0" width="100.0" x="585.0" y="238.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask4" id="BPMNShape_helloTask4">
+        <omgdc:Bounds height="80.0" width="100.0" x="755.5" y="238.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="gateway2" id="BPMNShape_gateway2">
+        <omgdc:Bounds height="40.0" width="40.0" x="580.0" y="389.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask5" id="BPMNShape_helloTask5">
+        <omgdc:Bounds height="80.0" width="100.0" x="665.0" y="369.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask6" id="BPMNShape_helloTask6">
+        <omgdc:Bounds height="80.0" width="100.0" x="665.0" y="505.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="gateway3" id="BPMNShape_gateway3">
+        <omgdc:Bounds height="40.0" width="40.0" x="810.0" y="389.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end3" id="BPMNShape_end3">
+        <omgdc:Bounds height="28.0" width="28.0" x="621.0" y="105.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="helloTask7" id="BPMNShape_helloTask7">
+        <omgdc:Bounds height="80.0" width="100.0" x="419.7538740270977" y="79.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="error1" id="BPMNShape_error1">
+        <omgdc:Bounds height="30.0" width="30.0" x="454.7538740270977" y="222.84503891609188"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow13" id="BPMNEdge_flow13">
+        <omgdi:waypoint x="685.0" y="278.0"/>
+        <omgdi:waypoint x="755.5" y="278.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow24" id="BPMNEdge_flow24">
+        <omgdi:waypoint x="765.0" y="409.0"/>
+        <omgdi:waypoint x="810.0" y="409.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow02" id="BPMNEdge_flow02">
+        <omgdi:waypoint x="519.7538740270977" y="119.0"/>
+        <omgdi:waypoint x="621.0" y="119.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow14" id="BPMNEdge_flow14">
+        <omgdi:waypoint x="855.5" y="278.0"/>
+        <omgdi:waypoint x="900.0" y="278.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow25" id="BPMNEdge_flow25">
+        <omgdi:waypoint x="850.0" y="409.0"/>
+        <omgdi:waypoint x="900.0" y="409.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow1" id="BPMNEdge_flow1">
+        <omgdi:waypoint x="211.5" y="278.0"/>
+        <omgdi:waypoint x="309.5" y="278.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow31" id="BPMNEdge_flow31">
+        <omgdi:waypoint x="600.0" y="429.0"/>
+        <omgdi:waypoint x="600.0" y="545.0"/>
+        <omgdi:waypoint x="665.0" y="545.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow32" id="BPMNEdge_flow32">
+        <omgdi:waypoint x="765.0" y="545.0"/>
+        <omgdi:waypoint x="830.0" y="545.0"/>
+        <omgdi:waypoint x="830.0" y="429.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow21" id="BPMNEdge_flow21">
+        <omgdi:waypoint x="329.5760456273764" y="297.9239543726236"/>
+        <omgdi:waypoint x="330.0" y="409.0"/>
+        <omgdi:waypoint x="418.75" y="409.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow22" id="BPMNEdge_flow22">
+        <omgdi:waypoint x="518.75" y="409.0"/>
+        <omgdi:waypoint x="580.0" y="409.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow11" id="BPMNEdge_flow11">
+        <omgdi:waypoint x="349.5" y="278.0"/>
+        <omgdi:waypoint x="418.75" y="278.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow23" id="BPMNEdge_flow23">
+        <omgdi:waypoint x="620.0" y="409.0"/>
+        <omgdi:waypoint x="665.0" y="409.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow12" id="BPMNEdge_flow12">
+        <omgdi:waypoint x="518.75" y="278.0"/>
+        <omgdi:waypoint x="585.0" y="278.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow01" id="BPMNEdge_flow01">
+        <omgdi:waypoint x="470.19366233178783" y="222.85148742729984"/>
+        <omgdi:waypoint x="472.06654331189355" y="159.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
