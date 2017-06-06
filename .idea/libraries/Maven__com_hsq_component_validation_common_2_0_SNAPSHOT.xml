@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hsq.component:validation-common:2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://E:/.m2/repository/com/hsq/component/validation-common/2.0-SNAPSHOT/validation-common-2.0-20161125.080304-16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/.m2/repository/com/hsq/component/validation-common/2.0-SNAPSHOT/validation-common-2.0-20161125.080304-16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/.m2/repository/com/hsq/component/validation-common/2.0-SNAPSHOT/validation-common-2.0-20161125.080304-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
