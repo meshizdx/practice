@@ -1,0 +1,5 @@
+com\spring\boot\mongodb\dao\PersonRepository.class
+com\spring\boot\mongodb\entity\Person.class
+com\spring\boot\mongodb\controller\PersonController.class
+com\spring\boot\mongodb\entity\Location.class
+com\spring\boot\mongodb\Application.class

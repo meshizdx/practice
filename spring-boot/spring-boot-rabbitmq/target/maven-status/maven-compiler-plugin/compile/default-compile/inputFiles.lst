@@ -1,0 +1,6 @@
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\config\AmqpConfig.java
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\mq\sender\RabbitMqSender.java
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\properties\RabbitMq.java
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\controller\MqController.java
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\mq\listener\RabbitMqListener.java
+E:\code\mandao\practice\spring-boot\spring-boot-rabbitmq\src\main\java\com\spring\boot\rabbitmq\Application.java

@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da98d658-82a7-44d6-a7a9-513a25c9ec22" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/com/spring/boot/base/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/com/spring/boot/base/properties/BaseProperties.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/com/spring/boot/base/properties/BasePropertiesByBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/spring-boot-base-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/spring-boot-base-0.0.1-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/test-classes/com/spring/boot/base/BaseTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/test-classes/com/spring/boot/base/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/com/spring/boot/dubbo/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/com/spring/boot/dubbo/controller/ConsumerController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/com/spring/boot/dubbo/service/IProviderService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/com/spring/boot/dubbo/service/impl/ProviderServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/spring-boot-dubbo-xml-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/spring-boot-dubbo-xml-0.0.1-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/com/spring/boot/mongodb/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/com/spring/boot/mongodb/controller/PersonController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/com/spring/boot/mongodb/dao/PersonRepository.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/com/spring/boot/mongodb/entity/Location.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/com/spring/boot/mongodb/entity/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/spring-boot-mongodb-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/spring-boot-mongodb-0.0.1-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/configuration/DatasourceConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/UserDaoByAnnotation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/dao/UserDaoByMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/com/spring/boot/mybatis/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis.war.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/configuration/DatasourceConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/SqlProvider/UserProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/UserDaoByAnnotation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/dao/UserDaoByMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/com/spring/boot/mybatis/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/jcl-over-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/jul-to-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/log4j-over-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/logback-classic-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/logback-core-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/mybatis-3.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/mybatis-spring-boot-starter-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/mysql-connector-java-5.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/slf4j-api-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/snakeyaml-1.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-boot-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-boot-autoconfigure-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-boot-starter-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-boot-starter-jdbc-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-boot-starter-logging-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/tomcat-jdbc-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/lib/tomcat-juli-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/test-classes/com/spring/boot/mybatis/MyBatisTestByAnnotation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/test-classes/com/spring/boot/mybatis/MybatisTestByMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/config/AmqpConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/controller/MqController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/mq/listener/RabbitMqListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/mq/sender/RabbitMqSender.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/com/spring/boot/rabbitmq/properties/RabbitMq.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/spring-boot-rabbitmq-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/spring-boot-rabbitmq-0.0.1-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/test-classes/com/spring/boot/rabbitmq/RabbitMqTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/pojo/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/redis/RedisConfig$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/redis/RedisConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/service/CacheService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/com/spring/boot/redis/service/impl/RedisCacheServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/spring-boot-redis-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/spring-boot-redis-0.0.1-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/test-classes/com/spring/boot/redis/RedisTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/configuration/DatasourceConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/controller/HelloWorldController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/controller/IndexController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/controller/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/enums/ResultCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/pojo/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/pojo/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/service/impl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/swagger2/Swagger2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/com/spring/boot/web/web/JsonResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web.war.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/configuration/DatasourceConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/controller/HelloWorldController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/controller/IndexController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/controller/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/enums/ResultCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/pojo/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/pojo/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/service/impl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/swagger2/Swagger2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/com/spring/boot/web/web/JsonResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/classmate-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/groovy-2.4.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/guava-18.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/hibernate-validator-5.2.2.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jackson-annotations-2.6.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jackson-core-2.6.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jackson-databind-2.6.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jcl-over-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/jul-to-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/log4j-over-slf4j-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/logback-classic-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/logback-core-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mapstruct-1.0.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mybatis-3.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mybatis-spring-boot-starter-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/mysql-connector-java-5.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/ognl-3.0.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/slf4j-api-1.7.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/snakeyaml-1.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-autoconfigure-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-jdbc-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-logging-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-thymeleaf-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-tomcat-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-validation-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-boot-starter-web-1.3.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-core-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-schema-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-spi-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-spring-web-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-swagger-common-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-swagger-ui-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/springfox-swagger2-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/swagger-annotations-1.5.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/swagger-models-1.5.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/thymeleaf-layout-dialect-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/thymeleaf-spring4-2.1.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-embed-core-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-embed-el-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-embed-logging-juli-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-embed-websocket-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-jdbc-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/tomcat-juli-8.0.30.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/classes/com/zdx/spring/boot/zdx/ZdxService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/classes/com/zdx/spring/boot/zdx/ZdxServiceAutoConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/classes/com/zdx/spring/boot/zdx/ZdxServiceProperties.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/spring-boot-zdx-starter-0.0.1-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mandao_asset_prod_passage_common_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/java/com/spring/boot/base/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/java/com/spring/boot/base/properties/BasePropertiesByBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/application-dev.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/application-prod.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/classes/properties.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-base/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/dubbo/dubbo-reference.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/dubbo/dubbo-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/classes/dubbo/dubbo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/src/main/java/com/spring/boot/mongodb/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/src/test/java/com/spring/boot/mybatis/MyBatisTestByAnnotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/classes/sql/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/classes/sql/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/spring-boot-mybatis/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/src/main/java/com/spring/boot/redis/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/spring/boot/web/controller/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/spring/boot/web/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/spring/boot/web/enums/ResultCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/static/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/sql/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/static/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/classes/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/sql/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/static/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/classes/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/target/spring-boot-web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/spring-boot-zdx-starter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/src/main/java/com/zdx/spring/boot/zdx/ZdxService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/src/main/java/com/zdx/spring/boot/zdx/ZdxServiceProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/classes/META-INF/spring.factories" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc/spring-mvc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot/pom.xml" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" />
+    </list>
+    <ignored path="practice-parent.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/target/" />
+    <ignored path="$PROJECT_DIR$/spring-mvc/target/" />
+    <ignored path="$PROJECT_DIR$/activiti/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-base/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-dubbo-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-dubbo-xml/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-redis/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-web/target/" />
+    <ignored path="$PROJECT_DIR$/../../zdx-study/zdx-spring-boot/spring-boot-zdx-starter/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-base/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-redis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-web/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-dubbo-xml/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/spring-boot-zdx-starter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="practice-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/java/com/spring/boot/base/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/src/test/java/com/spring/boot/base/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/java/com/spring/boot/base/Application.java" />
+        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Java/apache-maven-3.1.1" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.1.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zdx-study/spring-boot-zdx-starter-0.0.1-SNAPSHOT.jar!/" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\mandao\practice\spring-boot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BaseTest.testProperties">
+    <configuration default="false" name="BaseTest.testProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.spring.boot.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-boot-base" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.spring.boot.base" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.boot.base.BaseTest" />
+      <option name="METHOD_NAME" value="testProperties" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dubbo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.boot.dubbo.Application" />
+      <module name="spring-boot-dubbo-xml" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseTest.testProperties" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BaseTest.testProperties" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da98d658-82a7-44d6-a7a9-513a25c9ec22" name="Default" comment="" />
+      <created>1496713249492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496713249492</updated>
+      <workItem from="1496713252861" duration="1554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BaseTest_testProperties - 2017.06.06 at 10h 00m 32s.xml">
+      <configuration name="BaseTest.testProperties" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1554000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6417411" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring-boot" />
+    <MESSAGE value="force commit &#10;spring-boot" />
+    <MESSAGE value="force commit &#10;spring-boot." />
+    <option name="LAST_COMMIT_MESSAGE" value="force commit &#10;spring-boot." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-dubbo-annotation/src/main/java/com/spring/boot/dubbo/DASD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-dubbo-annotation/src/main/java/com/spring/boot/dubbo/config/DubboConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/src/main/java/com/spring/boot/base/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/spring-boot-base/src/test/java/com/spring/boot/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-boot-mybatis:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-dubbo-xml</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
