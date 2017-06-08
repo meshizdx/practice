@@ -1,0 +1,6 @@
+com\spring\boot\rabbitmq\properties\RabbitMq.class
+com\spring\boot\rabbitmq\mq\sender\RabbitMqSender.class
+com\spring\boot\rabbitmq\controller\MqController.class
+com\spring\boot\rabbitmq\config\AmqpConfig.class
+com\spring\boot\rabbitmq\mq\listener\RabbitMqListener.class
+com\spring\boot\rabbitmq\Application.class
