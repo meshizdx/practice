@@ -35,31 +35,10 @@ public class LruCacheConsumer {
 
         // 测试缓存生效，多次调用返回同样的结果。(服务器端自增长返回值)
         //预期每次请求的值完全一致
-        for (int i = 0; i < 5; i ++) {
+        for (int i = 0; i < 1005; i ++) {
             String result = cacheService.findCache("0");
-            System.out.println("OK1 : " + result);
-            Thread.sleep(500);
+            System.out.println(result);
         }
-
-
-        // LRU的缺省cache.size为1000，小于1001次，应有还是缓存的值
-        String result1 = "";
-        for (int n = 0; n < 500; n ++) {
-            result1 = cacheService.findCache(String.valueOf(n));
-        }
-        System.out.println("执行小于500次后 ： " +result1);
-
-
-        String result3 = "";
-        // LRU的缺省cache.size为1000，执行1001次，应有溢出
-        for (int n = 0; n < 501; n ++) {
-            result3 = cacheService.findCache(String.valueOf(n));
-        }
-        System.out.println("执行超过1000次后 ： " +result3);
-        
-        // 测试LRU有移除最开始的一个缓存项
-        String result4 = cacheService.findCache("0");
-        System.out.println("测试LRU有移除最开始的一个缓存项 : " + result4);
     }
 
 

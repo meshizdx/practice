@@ -18,6 +18,8 @@ public class CacheServiceImpl implements CacheService {
 
     @Override
     public String findCache(String id) {
-        return "request: " + id + ", response: " + i.getAndIncrement();
+        int j  = i.getAndIncrement();
+        System.out.println(  "1111   server :          request: " + id + ", response: " + j);
+        return "request: " + id + ", response: " + j;
     }
 }
