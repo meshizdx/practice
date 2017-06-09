@@ -1,4 +1,4 @@
-package com.stt.dto.accountOpen;
+package com.dubbo.common.dto.accountOpen;
 
 
 

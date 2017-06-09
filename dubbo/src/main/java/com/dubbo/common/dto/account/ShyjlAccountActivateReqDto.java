@@ -1,4 +1,4 @@
-package com.stt.dto.account;
+package com.dubbo.common.dto.account;
 
 
 

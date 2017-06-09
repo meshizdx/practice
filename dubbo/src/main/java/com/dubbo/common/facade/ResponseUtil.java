@@ -1,4 +1,4 @@
-package com.stt.facade;
+package com.dubbo.common.facade;
 
 /**
  * 接口返回工具类

@@ -1,4 +1,4 @@
-package com.dubbo.callback.impl;
+package com.dubbo.callback.api;
 
 /**
  * 博学之，审问之，慎思之，明辨之，笃行之。
@@ -11,5 +11,5 @@ package com.dubbo.callback.impl;
 public interface CallBackListener {
 
     void changed(String msg);
-    
+
 }

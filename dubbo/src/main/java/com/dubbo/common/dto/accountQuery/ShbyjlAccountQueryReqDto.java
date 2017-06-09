@@ -1,4 +1,4 @@
-package com.stt.dto.accountQuery;
+package com.dubbo.common.dto.accountQuery;
 
 
 

@@ -1,4 +1,4 @@
-package com.stt.dto.accountWithholding;
+package com.dubbo.common.dto.accountWithholding;
 
 import java.io.Serializable;
 

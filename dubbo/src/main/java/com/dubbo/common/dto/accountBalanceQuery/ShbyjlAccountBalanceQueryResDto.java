@@ -1,4 +1,4 @@
-package com.stt.dto.accountBalanceQuery;
+package com.dubbo.common.dto.accountBalanceQuery;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

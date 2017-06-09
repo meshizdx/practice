@@ -1,4 +1,4 @@
-package com.stt.dto.accountOrderDirectiveQuery;
+package com.dubbo.common.dto.accountOrderDirectiveQuery;
 
 import java.io.Serializable;
 

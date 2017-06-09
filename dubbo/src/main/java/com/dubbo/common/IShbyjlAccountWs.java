@@ -1,16 +1,13 @@
-package com.stt.account;
+package com.dubbo.common;
 
 
-import com.stt.dto.account.ShyjlAccountActivateReqDto;
-import com.stt.dto.account.ShyjlAccountActivateResDto;
-import com.stt.dto.accountBalanceQuery.ShbyjlAccountBalanceQueryReqDto;
-import com.stt.dto.accountBalanceQuery.ShbyjlAccountBalanceQueryResDto;
-import com.stt.dto.accountOpen.ShbyjlAccountOpenReqDto;
-import com.stt.dto.accountOpen.ShbyjlAccountOpenResDto;
-import com.stt.dto.accountQuery.ShbyjlAccountQueryReqDto;
-import com.stt.dto.accountQuery.ShbyjlAccountQueryResDto;
-import com.stt.facade.Request;
-import com.stt.facade.Response;
+
+
+import com.dubbo.callback.api.CallBackListener;
+import com.dubbo.common.dto.accountQuery.ShbyjlAccountQueryReqDto;
+import com.dubbo.common.dto.accountQuery.ShbyjlAccountQueryResDto;
+import com.dubbo.common.facade.Request;
+import com.dubbo.common.facade.Response;
 
 import java.util.List;
 
@@ -44,4 +41,9 @@ public interface IShbyjlAccountWs {
      */
     Response<ShbyjlAccountQueryResDto> cache(Request<ShbyjlAccountQueryReqDto> request);
 
+
+    /**
+     * 接口回调
+     */
+    Response<ShbyjlAccountQueryResDto> callback(Request<ShbyjlAccountQueryReqDto> request, CallBackListener listener);
 }

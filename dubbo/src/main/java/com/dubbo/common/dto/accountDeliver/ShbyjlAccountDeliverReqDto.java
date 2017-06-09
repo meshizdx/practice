@@ -1,4 +1,4 @@
-package com.stt.dto.accountDeliver;
+package com.dubbo.common.dto.accountDeliver;
 
 
 import java.io.Serializable;
