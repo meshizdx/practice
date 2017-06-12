@@ -44,4 +44,9 @@ public class ShbyjlAccountWsImpl implements IShbyjlAccountWs {
     public Response<ShbyjlAccountQueryResDto> callback(Request<ShbyjlAccountQueryReqDto> request, CallBackListener listener) {
         return null;
     }
+
+    @Override
+    public Response<ShbyjlAccountQueryResDto> mock(Request<ShbyjlAccountQueryReqDto> request) {
+        return null;
+    }
 }

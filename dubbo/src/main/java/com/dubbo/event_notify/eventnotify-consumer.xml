@@ -25,7 +25,7 @@
     <!--模版-->
     <dubbo:application name="event-notify-consumer" />
     <!-- 使用zookeeper注册中心暴露服务地址 -->
-    <dubbo:registry  protocol="zookeeper" address="192.168.1.101:2181"  register="true"/>
+    <dubbo:registry  protocol="zookeeper" address="10.0.20.175:2181"  register="true"/>
 
     <!-- 用dubbo协议暴露服务 -->
     <dubbo:protocol name="dubbo" port="50883"/>
@@ -33,6 +33,7 @@
     <bean id="notify" class="com.dubbo.event_notify.impl.NotifyImpl"></bean>
     <dubbo:reference id="shbyjlAccountWsImpl" interface="com.dubbo.common.IShbyjlAccountWs" >
         <dubbo:method name="query"
+                      oninvoke="notify.oninvoke"
                       onreturn="notify.onreturn"
                       onthrow="notify.onthrow"
         ></dubbo:method>

@@ -3,6 +3,7 @@ package com.dubbo.event_notify;
 import com.alibaba.fastjson.JSON;
 import com.dubbo.common.IShbyjlAccountWs;
 import com.dubbo.common.dto.accountQuery.ShbyjlAccountQueryResDto;
+import com.dubbo.common.facade.FacadeFactory;
 import com.dubbo.common.facade.Response;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -22,7 +23,7 @@ public class EventNotifyConsumer {
         context.start();
 
         IShbyjlAccountWs shbyjlAccountWs = (IShbyjlAccountWs)context.getBean("shbyjlAccountWsImpl");
-        Response<ShbyjlAccountQueryResDto> resDtoResponse =  shbyjlAccountWs.query(null);
+        Response<ShbyjlAccountQueryResDto> resDtoResponse =  shbyjlAccountWs.query(FacadeFactory.createRequest("",""));
         System.out.println(JSON.toJSON(resDtoResponse));
     }
 }

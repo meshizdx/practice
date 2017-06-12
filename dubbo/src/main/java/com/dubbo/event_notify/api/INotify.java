@@ -10,6 +10,8 @@ package com.dubbo.event_notify.api;
  */
 public interface INotify {
 
+    public void oninvoke(Object args);
+
     public void onreturn(Object res,Object... args);
 
     public void onthrow(Throwable ex,Object... args);
