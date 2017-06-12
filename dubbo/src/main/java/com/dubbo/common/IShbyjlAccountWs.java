@@ -46,4 +46,11 @@ public interface IShbyjlAccountWs {
      * 接口回调
      */
     Response<ShbyjlAccountQueryResDto> callback(Request<ShbyjlAccountQueryReqDto> request, CallBackListener listener);
+
+    /**
+     * 本地伪装
+     * @param request
+     * @return
+     */
+    Response<ShbyjlAccountQueryResDto> mock(Request<ShbyjlAccountQueryReqDto> request);
 }
