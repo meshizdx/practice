@@ -31,7 +31,7 @@ public class AsyncConsumer {
         shbyjlAccountWsImpl.async1(null);
         Future<Response<ShbyjlAccountQueryResDto>> pFuture = RpcContext.getContext().getFuture();
         System.out.println("当前服务配置信息1 ："+RpcContext.getContext().getUrl());
-
+        System.out.println();
 
         IShbyjlAsyncWs2 shbyjlAccountWsImpl2 = (IShbyjlAsyncWs2)context.getBean("shbyjlAsyncWsImpl2");
         shbyjlAccountWsImpl2.async1(null);

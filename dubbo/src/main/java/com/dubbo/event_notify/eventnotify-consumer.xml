@@ -33,7 +33,6 @@
     <bean id="notify" class="com.dubbo.event_notify.impl.NotifyImpl"></bean>
     <dubbo:reference id="shbyjlAccountWsImpl" interface="com.dubbo.common.IShbyjlAccountWs" >
         <dubbo:method name="query"
-                      oninvoke="notify.oninvoke"
                       onreturn="notify.onreturn"
                       onthrow="notify.onthrow"
         ></dubbo:method>
