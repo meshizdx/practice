@@ -23,9 +23,11 @@
 
     <!-- 应用名，用于计算依赖关系-->
     <!--模版-->
-    <dubbo:application name="redis-protocol-provider" />
+    <dubbo:application name="redis-protocol-provider" >
+
+    </dubbo:application>
     <!-- 使用zookeeper注册中心暴露服务地址 -->
-    <dubbo:registry  protocol="redis" address="10.0.21.58:6379" />
+    <dubbo:registry  protocol="redis" address="10.0.21.58:6379,10.0.21.59:6379,10.0.21.60:6379" />
 
     <!-- 用dubbo协议暴露服务 -->
     <dubbo:protocol name="dubbo" port="50883"/>

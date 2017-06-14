@@ -34,7 +34,7 @@ public class HelloWorldSpringTest {
 //    public ActivitiRule activitiSpringRule = new ActivitiRule();;
 
     @Test
-//    @Deployment(resources = {"deployment/auto/HelloWorldSpring.bpmn20.xml"})
+//    @Deployment(dubbo = {"deployment/auto/HelloWorldSpring.bpmn20.xml"})
     public void simpleProcessTest1() {
         Map<String, Object> variables = new HashMap<String, Object>();
         variables.put("who", "YYJ");

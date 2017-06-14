@@ -50,7 +50,7 @@ public class MockServiceImpl implements IShbyjlAccountWs {
         ShbyjlAccountQueryResDto resDto = new ShbyjlAccountQueryResDto();
         resDto.setData("原本的结果");
         try {
-            Thread.sleep(5000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

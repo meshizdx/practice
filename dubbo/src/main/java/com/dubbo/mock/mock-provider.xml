@@ -31,6 +31,6 @@
 
     <bean id="mockServiceImpl" class="com.dubbo.mock.impl.MockServiceImpl"></bean>
 
-    <dubbo:service interface="com.dubbo.common.IShbyjlAccountWs" ref="mockServiceImpl" version="1.0.0" timeout="10000"  mock="com.dubbo.mock.impl.MockServiceMock"/>
+    <dubbo:service interface="com.dubbo.common.IShbyjlAccountWs" ref="mockServiceImpl" version="1.0.0" mock="com.dubbo.mock.impl.MockServiceMock"/>
 
 </beans>

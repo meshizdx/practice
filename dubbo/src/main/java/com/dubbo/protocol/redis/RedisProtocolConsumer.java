@@ -16,7 +16,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @create by shaott at 2017-06-12 15:03
  **/
 public class RedisProtocolConsumer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         String config = RedisProtocolConsumer.class.getPackage().getName().replace('.', '/') + "/redis-protocol-consumer.xml";
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(config);
         context.start();
@@ -24,5 +24,6 @@ public class RedisProtocolConsumer {
         IShbyjlAccountWs shbyjlAccountWs = (IShbyjlAccountWs)context.getBean("shbyjlAccountWsImpl");
         Response<ShbyjlAccountQueryResDto> resDtoResponse =  shbyjlAccountWs.query(FacadeFactory.createRequest("",""));
         System.out.println(JSON.toJSON(resDtoResponse));
+        System.in.read();
     }
 }

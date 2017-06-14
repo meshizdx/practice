@@ -20,19 +20,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+
     <!-- 应用名，用于计算依赖关系-->
     <!--模版-->
-    <dubbo:application name="group-consumer" />
+    <dubbo:application name="async-provider1" />
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <dubbo:registry  protocol="zookeeper" address="10.0.20.175:2181"  register="true"/>
 
     <!-- 用dubbo协议暴露服务 -->
     <dubbo:protocol name="dubbo" port="50883"/>
 
-    <!--账户-->
-    <!--开户  激活  查询状态-->
-    <dubbo:reference group="*"  interface="com.dubbo.group.api.IShbyjlAccountWs" id="shbyjlAccountWsImpl" version="1.0.0">
-        <dubbo:method name="queryList" merger="myMerger"></dubbo:method>
-    </dubbo:reference>
+    <bean id="shbyjlAsyncWsImpl" class="com.dubbo.async.impl.ShbyjlAsyncWsImpl"></bean>
+
+    <dubbo:service   interface="com.dubbo.common.IShbyjlAsyncWs" ref="shbyjlAsyncWsImpl" />
 
 </beans>
