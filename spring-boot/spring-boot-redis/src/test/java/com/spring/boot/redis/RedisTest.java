@@ -29,7 +29,7 @@ public class RedisTest {
 
         cacheService.set("person",person);
         Person p2 = (Person) cacheService.get("person");
-        System.out.println(p2.toString());
+        System.out.println("------------------"+p2.toString());
 
     }
 
